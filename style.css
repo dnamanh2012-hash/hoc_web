@@ -8,14 +8,17 @@ body {
 }
 
 h1 {
-  color: #7fffd4;
+  color: #2b8a6e;
 }
 
 img {
   width: 200px;
   max-width: 100%;
-  height: auto;
+  height: 200px;
   border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 16px auto;
 }
 
 p {
