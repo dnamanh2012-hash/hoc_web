@@ -29,5 +29,25 @@ p {
   display: flex;
   gap: 60px;
   align-items: center;
-  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  ul {
+    text-align: justify;
+  }
 }
