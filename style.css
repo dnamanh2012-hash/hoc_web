@@ -35,6 +35,30 @@ ul {
   list-style: none;
 }
 
+a {
+  color: #f5fffa;
+}
+
+.bodem {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.dem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+body.sang {
+  background-color: lightYellow;
+  color: #222;
+  a {
+    color: #8b0000;
+  }
+}
+
 @media (max-width: 600px) {
   .card {
     flex-direction: column;
@@ -46,12 +70,4 @@ ul {
     width: 150px;
     height: 150px;
   }
-
-  ul {
-    text-align: justify;
-  }
-}
-
-a {
-  color: #ff6347;
 }
