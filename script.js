@@ -5,7 +5,7 @@ const giam = document.getElementById("giam");
 const reset = document.getElementById("reset");
 
 let dem = 0;
-function(capnhat) {
+function capnhat() {
   so.textContent = dem;
 }
 
@@ -27,11 +27,11 @@ reset.addEventListener("click", function () {
 });
 
 nut.addEventListener("click", function () {
-  document.body.classList.toggle("sang");
+  document.body.classList.toggle("toi");
 
-  if (document.body.classList.contains("sang")) {
-    nut.textContent = "Tắt đèn";
+  if (document.body.classList.contains("toi")) {
+    nut.textContent = "Chế độ sáng";
   } else {
-    nut.textContent = "Bật đèn";
+    nut.textContent = "Chế độ tối";
   }
 });

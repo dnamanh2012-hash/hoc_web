@@ -3,8 +3,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #222;
-  color: #fff;
+  background-color: lightYellow;
+  color: #222;
 }
 
 h1 {
@@ -36,7 +36,11 @@ ul {
 }
 
 a {
-  color: #f5fffa;
+  color: #8b0000;
+}
+
+.todolist {
+  height: 50px;
 }
 
 .bodem {
@@ -51,12 +55,23 @@ a {
   align-items: center;
 }
 
-body.sang {
-  background-color: lightYellow;
-  color: #222;
+body.toi {
+  background-color: #222;
+  color: #fff;
   a {
-    color: #8b0000;
+    color: #f5fffa;
   }
+}
+
+li.xong {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  margin-left: 10px;
+  background-color: #ffcccc;
+  color: #8b0000;
 }
 
 @media (max-width: 600px) {
